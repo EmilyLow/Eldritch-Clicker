@@ -9,9 +9,13 @@ function Counter(props){
     console.log("name", props.name);
     console.log("resources", props.resources);
 
-    return(
-        <p>{props.name}: {props.resources[props.name]}</p>
-    )
+    if(props.resources[props.name] > 0) {
+        return(
+            <p>{props.name}: {props.resources[props.name]}</p>
+        );
+    }
+    return (<></>);
+    
 }
 
 export default Counter;
