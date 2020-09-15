@@ -1,15 +1,5 @@
-
-
-
 /*
 Implemented by using 'less-watch-compiler less css index.less' in the command line. Needed to add index.css to its own folder and change the reference in index.js. Less file also needs to be in src
 
 I suspect this is a variation on the base 'less-watch-compiler' functions
 */
-
-
-
-
-body {
-    // background-color: red;
-}
