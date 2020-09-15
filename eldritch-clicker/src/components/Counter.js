@@ -6,6 +6,8 @@ import React from "react";
 //Will implement CounterBox later. May Consider using Children for it.
 
 function Counter(props){
+    //Add props.rate? Or do that elsewhere if this just reports. 
+
     // console.log("name", props.name);
     // console.log("resources", props.resources);
 

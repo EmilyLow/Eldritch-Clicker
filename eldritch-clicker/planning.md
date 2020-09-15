@@ -14,6 +14,7 @@ Science tree equivalent probablyI shou
 
 Feed:
 Shows user actions and passive events
+Could possibly make story messages appear in pop ups, or have a box where the last story message appears, or alternately make them bold. 
 
 Probably should have an array of flavor text, or an object full of specific flavor text of which specific ones get called. Text.Cats.1 or whateverhonest
 
@@ -43,11 +44,13 @@ Spider price increases slower. Buy 1, buy 10, buy 15
 (Maybe after increasing range?)
 
 List of specific steps:
-1. Create message feed
-2. Store data in a way more accessible to all (not REDUX)
-3. Create mouse sacrifical messages
-4. Summon god button when power > 10. One time buttons/upgrades. Basement. "You have enough power. Create your god. Create god." Single use god creation thing. 
-5. Convert button. Multiple time buttons/upgrades
+- Basic styling with Less
+- One time buttons/upgrades. 
+- Convert button. Multiple time buttons/upgrades
 
 Unordered:
 -Add feed message limit
+-Add basic styling
+
+Question:
+Will children automatically update based on changes to their props? I'm unclear.
