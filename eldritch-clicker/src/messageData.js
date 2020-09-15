@@ -2,11 +2,11 @@ export default  {
     story: [
         {
             id: 0,
-            text: "This is a message"
+            text: "A blob of a color you can't name hangs in the air in front of you. It is the size of your fist. It blinks."
         },
         {
             id: 1,
-            text: "This is a second message"
+            text: "Read the words of creation."
         }
     ],
 
