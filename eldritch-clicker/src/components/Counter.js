@@ -12,12 +12,19 @@ function Counter(props){
     // console.log("resources", props.resources);
 
     //The way I'm accessing resources here seems unclean
-    if(props.resources[props.name] > 0) {
-        return(
-            <p>{props.name}: {props.resources[props.name]}</p>
-        );
-    }
-    return (<></>);
+
+    //!!Curenntly testing how incrementing TestNumber plays out
+    // if(props.resources[props.name] > 0) {
+    //     return(
+    //         <p>{props.name}: {props.resources[props.name]}</p>
+            
+    //     );
+    // }
+    // return (<></>);
+
+    return(<div>
+        <p>Test Resource: {props.testNumber}</p>
+    </div>)
     
 }
 

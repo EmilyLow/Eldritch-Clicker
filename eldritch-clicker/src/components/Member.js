@@ -10,7 +10,7 @@ import memberData from "../memberData"
 
 //Currently, switch statement inside member
 function Member(props) {
-    console.log("Member created");
+    // console.log("Member created");
     let initialState = {name: "Test Name", number: 0, price: 0, rate: 0, display: false}
     //Testing for rendering
     let [display, setDisplay] = useState(false);
@@ -19,7 +19,7 @@ function Member(props) {
     let [info, setInfo] = useState(pulledData ? pulledData : initialState );
     //The problem with this is that initialize is called way too many times. Too many rerenders
     // initialize(); 
-    console.log(info);
+    // console.log(info);
     // checkDisplay()
     
 
@@ -37,10 +37,10 @@ function Member(props) {
 
     //References memberData file to assign correct member attributes and checks props to see if member should be displayed
     function initialize() {
-        console.log("Initalized");
+        // console.log("Initalized");
         //If prerequisites are met, set display true
         setInfo({...info, ...memberData[props.name]})
-        console.log("Updated info", info)
+        // console.log("Updated info", info)
     }
     //instead of info.display
     //Does not cause infinite rerenders, probably because I'm not setting state

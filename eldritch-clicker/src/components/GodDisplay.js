@@ -11,6 +11,7 @@ function GodDisplay(props) {
         return <></>
     }
     else if (props.godStatus.level == 1) {
+        console.log("godStatus in display", props.godStatus);
        return <p>{messageData.story[0].text}</p>
     }
 
